@@ -35,9 +35,9 @@ where email = 'bashurst5@virginia.edu';
 
 
 UPDATE employee
-SET birthday = '1907-07-07',name = 'şükrü', email = 'game@gmail.com'
-where email = 'bashurst5@virginia.edu'
-RETURNING name;
+SET name = 'Buğra',birthday = '2017-03-03'
+where name = 'Miles' and birthday = '2001-07-07';
+
 
 UPDATE employee
 SET email = 'barış@gmail.com',name = 'Savaş'
