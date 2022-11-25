@@ -67,6 +67,6 @@ WHERE id <= 15 AND  name LIKE 'A%';
 DELETE FROM employee
 WHERE email = 'lceeley9@joomla.org'
 returning *;
-
+.
 
 
